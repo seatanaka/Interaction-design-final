@@ -58,7 +58,8 @@ nav a {
     color: #000000;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Kiwi Maru', sans-serif;
+                                                
 }
 
 
@@ -69,7 +70,7 @@ nav a {
     height: 100vh;
     margin: 0 auto;
     display: flex;
-    flex-direction: column; /* Stack the child elements vertically */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -80,7 +81,7 @@ h2 {
     font-family: 'Rock 3D', sans-serif;
     font-size: 34px;
     color: #000000;
-    background-color: transparent; /* Add this line to ensure no background color */
+    background-color: transparent;
     margin-bottom: 90px;
     margin-top: 200px;
 }
@@ -88,9 +89,9 @@ h2 {
 p {
     font-size: 14px;
     text-align: justify;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kiwi Maru', sans-serif;
     color: rgb(0, 0, 0);
-    background-color: transparent; /* Add this line to ensure no background color */
+    background-color: transparent; 
     margin-top: 0;
     margin-left: 30px;
     margin-right: 30px;
@@ -105,14 +106,14 @@ p {
 }
 
 .fixed-image img {
-    width: 250px; /* Adjust the width as needed */
+    width: 250px;
     height: auto;
 }
 
 
 .green-box img {
-    width: 100%; /* Make the image width 100% of its container */
-    margin-top: 40px; /* Add some top margin to separate it from the paragraphs */
+    width: 100%; 
+    margin-top: 40px;
 }
 
 
@@ -120,40 +121,40 @@ p {
 
 
 .fixed-image-left img {
-    width: 220px; /* Adjust the width as needed */
+    width: 220px; 
     height: auto;
 }
 
-/* Add the following styles */
+
 .fixed-image-left {
     position: fixed;
-    bottom: 10px; /* Adjust the bottom position as needed */
-    left: 50px; /* Adjust the left position as needed */
+    bottom: 10px; 
+    left: 50px; 
 }
 
 
 
 .fixed-image-right img {
-    width: 220px; /* Adjust the width as needed */
+    width: 220px; 
     height: auto;
 }
 
-/* Add the following styles */
+
 .fixed-image-right {
     position: fixed;
-    bottom: 10px; /* Adjust the bottom position as needed */
-    right: 10px; /* Adjust the left position as needed */
+    bottom: 10px; 
+    right: 10px; 
 }
 
 
 .fixed-image-arrow img {
-    width: 100px; /* Adjust the width as needed */
+    width: 100px;
     height: auto;
 }
 
-/* Add the following styles */
+
 .fixed-image-arrow {
     position: fixed;
-    bottom: 350px; /* Adjust the bottom position as needed */
-    right: 150px; /* Adjust the left position as needed */
+    bottom: 350px; 
+    right: 150px; 
 }
