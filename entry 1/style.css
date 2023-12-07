@@ -158,3 +158,7 @@ p {
     bottom: 350px; /* Adjust the bottom position as needed */
     right: 150px; /* Adjust the left position as needed */
 }
+
+.English{
+    display: none;
+}
