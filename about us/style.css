@@ -7,8 +7,6 @@
 }
 
 
-
-
 h1{
     font-size: 30px;
     text-align: left;
@@ -26,33 +24,20 @@ h1{
     border: 1px solid rgb(56, 101, 49);
     padding: 60px;
     margin: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
-
-
-  }
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Display three columns by default */
-
-  /* Adjustments for smaller screens */
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr; /* Switch to a single column on smaller screens */
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: rgba(59, 101, 59, 0.178) ;
   }
 
-  .image-grid img {
-    max-width: 60%;
-    height: 40;
-    display: block;
-    margin: 10px; /* Adjust margin as needed */
-  }
-}
-  
+
 p{
     font-size: 13px;
-    text-align: left;
+    text-align: center;
     font-family: 'Lato', sans-serif;
     color: rgb(0, 0, 0);
+    margin-left: 100px;
+    margin-right: 100px
 }
 
 nav {
