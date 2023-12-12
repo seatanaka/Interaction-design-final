@@ -28,8 +28,26 @@ h1{
     margin: 50px;
     margin-right: 50px;
     margin-left: 50px;
+
+
+  }
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display three columns by default */
+
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr; /* Switch to a single column on smaller screens */
   }
 
+  .image-grid img {
+    max-width: 60%;
+    height: 40;
+    display: block;
+    margin: 10px; /* Adjust margin as needed */
+  }
+}
+  
 p{
     font-size: 13px;
     text-align: left;
